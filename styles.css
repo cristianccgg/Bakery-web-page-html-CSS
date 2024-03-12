@@ -50,7 +50,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url='/Images/Fondo1.JPG';
+  background: url(./Images/Fondo1.JPG);
   background-size: cover;
   background-position: center;
   padding: 250px;
