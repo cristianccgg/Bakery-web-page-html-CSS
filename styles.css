@@ -1,0 +1,386 @@
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.open-sans- {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+:root {
+  --main-rojo: #d03b40;
+  --main-beige: #ded6c0;
+  --main-blanco: #f5f0ed;
+  --main-gris: #241d1b;
+}
+
+/*Inicio Barra de navegacion*/
+
+.nav-bar {
+  position: absolute;
+  color: var(--main-beige);
+  top: 20px;
+  right: 20px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+/*fin barra de navegacion*/
+
+.wrap-fondo1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/Imágenes/Fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 250px;
+  z-index: -1;
+}
+
+.wrap-texto {
+  font-family: "Open Sans", sans-serif;
+  color: var(--main-blanco);
+  text-align: center;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+/*FINAL FONDO 1*/
+
+/*INICIO CAJAS DE LA MITAD*/
+
+.cajas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.caja1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+  height: 400px;
+  background: var(--main-rojo);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-caja1 {
+  text-align: center;
+  font-size: large;
+  padding-right: 90px;
+  padding-left: 90px;
+  color: var(--main-beige);
+}
+
+.caja2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+  height: 400px;
+  background: var(--main-beige);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-caja2 {
+  text-align: center;
+  font-size: large;
+  padding-right: 90px;
+  padding-left: 90px;
+  color: var(--main-rojo);
+}
+
+/*FIN CAJAS DE LA MITAD*/
+
+/*INICIO FONDO 2---*/
+
+.wrap-fondo2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/Imágenes/Fondo2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.wrap-texto2 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--main-blanco);
+  text-align: center;
+}
+
+.boton-productos {
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  top: 70%;
+  opacity: 60%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 5%;
+  padding-top: 4%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid;
+}
+
+.boton-productos:hover {
+  opacity: 100%;
+}
+
+/*FINAL FONDO 2*/
+
+/*--Inicio Caja iconos--*/
+
+.wrap-caja-blanca {
+  width: 100%;
+  height: 500px;
+  background-color: var(--main-blanco);
+  position: relative;
+}
+
+.icono1 {
+  height: 150px;
+  position: absolute;
+  left: 5px;
+}
+
+.contenedor-parrafo1 {
+  display: inline;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  right: auto;
+  width: 500px;
+  height: 150px;
+  border: #241d1b;
+}
+
+.texto-icono1 {
+  font-size: 20px;
+  text-align: justify;
+  position: absolute;
+  left: 160;
+}
+
+.parrafo-icono1 {
+  position: absolute;
+  text-align: justify;
+  left: 160px;
+  top: 25px;
+}
+
+
+.icono2 {
+  height: 150px;
+  position: absolute;
+  left: 5px;
+}
+
+.contenedor-parrafo2 {
+  display: inline;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  width: 500px;
+  height: 150px;
+  border: #241d1b;
+}
+
+.texto-icono2 {
+  font-size: 20px;
+  text-align: justify;
+  position: absolute;
+  left: 160;
+}
+
+.parrafo-icono2 {
+  text-align: justify;
+  position: absolute;
+  left: 160px;
+  top: 25px;
+}
+
+.icono3 {
+  height: 150px;
+  position: absolute;
+  left: 5px;
+}
+
+.contenedor-parrafo3 {
+  display: inline;
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  right: auto;
+  width: 500px;
+  height: 150px;
+  border: #241d1b;
+}
+
+.texto-icono3 {
+  font-size: 20px;
+  text-align: justify;
+  position: absolute;
+  left: 160;
+}
+
+.parrafo-icono3 {
+  position: absolute;
+  text-align: justify;
+  left: 160px;
+  top: 25px;
+}
+
+.icono4 {
+  height: 150px;
+  position: absolute;
+  left: 5px;
+}
+
+.contenedor-parrafo4 {
+  display: inline;
+  position: absolute;
+  bottom: 50px;
+  right: 40px;
+  width: 500px;
+  height: 150px;
+  border: #241d1b;
+}
+
+.texto-icono4 {
+  font-size: 20px;
+  text-align: justify;
+  position: absolute;
+  left: 160px
+}
+
+.parrafo-icono4 {
+  position: absolute;
+  text-align: justify;
+  left: 160px;
+  top: 25px;
+}
+
+/*--Fin Caja blanca--*/
+
+/*Inicio CAJAS finales--*/
+
+.cajas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caja-final1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+  height: 400px;
+  background: var(--main-rojo);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-final2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+  height: 400px;
+  background: var(--main-beige);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/*fin CAJAS finales--*/
+
+/*inicio footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: var(--main-blanco);
+}
+
+/*fin footer*/
+
+@media screen and (max-width:800px){.cajas{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+  .caja1, .caja2, .caja-final1, .caja-final2{width: 100%;}
+
+@media screen and (max-width:1000px) {.wrap-caja-blanca{
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width:900px) {.contenedor-parrafo1, .contenedor-parrafo2, .contenedor-parrafo3, .contenedor-parrafo4{
+  position: unset;
+  width: 100%;
+  padding-right: 20px;
+}
+.parrafo-icono1, .parrafo-icono2, .parrafo-icono3, .parrafo-icono4{
+  position: unset;
+  margin-left: 160px;
+  margin-top: 25px;
+}}
+
+@media screen and (max-width:800px) {ul, li {
+  position: inherit;
+  overflow: hidden;
+}
+  
+}
+  
