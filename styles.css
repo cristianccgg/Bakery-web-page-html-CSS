@@ -130,7 +130,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(./Images/Fondo2.jpg);
+  background: url(Images/Fondo2.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
