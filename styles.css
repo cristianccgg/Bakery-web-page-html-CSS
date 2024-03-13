@@ -209,7 +209,7 @@ li {
 .icono2 {
   height: 150px;
   position: absolute;
-  left: 5px;
+  left: -120px;
 }
 
 .contenedor-parrafo2 {
@@ -226,13 +226,13 @@ li {
   font-size: 20px;
   text-align: justify;
   position: absolute;
-  left: 160;
+  left: 40px;
 }
 
 .parrafo-icono2 {
   text-align: justify;
   position: absolute;
-  left: 160px;
+  left: 40px;
   top: 25px;
 }
 
@@ -270,7 +270,7 @@ li {
 .icono4 {
   height: 150px;
   position: absolute;
-  left: 5px;
+  left: -120px;
 }
 
 .contenedor-parrafo4 {
@@ -287,13 +287,13 @@ li {
   font-size: 20px;
   text-align: justify;
   position: absolute;
-  left: 160px
+  left: 40px
 }
 
 .parrafo-icono4 {
   position: absolute;
   text-align: justify;
-  left: 160px;
+  left: 40px;
   top: 25px;
 }
 
@@ -356,8 +356,9 @@ li {
   align-items: flex-start;
 }
   .caja1, .caja2, .caja-final1, .caja-final2{width: 100%;}
+}
 
-@media screen and (max-width:1000px) {.wrap-caja-blanca{
+@media screen and (max-width:1200px) {.wrap-caja-blanca{
   width: 100%;
   height: 800px;
   display: flex;
@@ -366,18 +367,33 @@ li {
   justify-content: space-evenly;
 }
 
-@media screen and (max-width:900px) {.contenedor-parrafo1, .contenedor-parrafo2, .contenedor-parrafo3, .contenedor-parrafo4{
+@media screen and (max-width:1200px) {.contenedor-parrafo1, .contenedor-parrafo3{
   position: unset;
   width: 100%;
   padding-right: 20px;
 }
-.parrafo-icono1, .parrafo-icono2, .parrafo-icono3, .parrafo-icono4{
+
+.contenedor-parrafo2, .contenedor-parrafo4{
+  position: unset;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.parrafo-icono1, .parrafo-icono3{
   position: unset;
   margin-left: 160px;
   margin-top: 25px;
-}}
+}
 
-@media screen and (max-width:800px) {ul, li {
+.parrafo-icono2, .parrafo-icono4{
+  position: unset;
+  margin-left: 160px;
+  margin-top: 25px;
+}
+
+.texto-icono2, .texto-icono4, .icono2, .icono4{margin-left: 120px;}}
+
+@media screen and (max-width:1700px) {ul, li {
   position: inherit;
   overflow: hidden;
 }
