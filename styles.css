@@ -355,6 +355,7 @@ li {
     justify-content: space-evenly;
     align-items: flex-start;
   }
+
   .caja1,
   .caja2,
   .caja-final1,
@@ -413,7 +414,6 @@ li {
 
 
   @media screen and (max-width: 900px) {
-    .botones {
-      font-size: 10px;
+    .botones {overflow: hidden;
     }
   }
