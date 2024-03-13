@@ -18,7 +18,7 @@ It only contains the main page and links to secondary pages do not work yet.
 
 ### Screenshot
 
-![](<!(images/Proyecto_final.png)>)
+![](<!(/images/Proyecto_final.png)>)
 
 ### Links
 
