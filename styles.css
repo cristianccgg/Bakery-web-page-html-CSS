@@ -411,10 +411,7 @@ li {
     }
   }
 
-
-
-  @media screen and (max-width: 900px) {
-    .ul, .li, 
-    .botones {overflow: hidden;
-    }
+  @media screen and (max-width: 900px) {ul, li {
+    position: inherit;
+    overflow: hidden;}
   }
