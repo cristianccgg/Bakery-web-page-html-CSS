@@ -18,7 +18,7 @@ It only contains the main page and links to secondary pages do not work yet.
 
 ### Screenshot
 
-![](<!(/images/Proyecto_final.png)>)
+![Alt text Bakery webpage screeshot solution](/images/Proyecto_final.png "Bakery webpage solution")
 
 ### Links
 
