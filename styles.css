@@ -393,7 +393,7 @@ li {
 
 .texto-icono2, .texto-icono4, .icono2, .icono4{margin-left: 120px;}}
 
-@media screen and (max-width:1700px) {ul, li {
+@media screen and (max-width:1200px) {ul, li {
   position: inherit;
   overflow: hidden;
 }
