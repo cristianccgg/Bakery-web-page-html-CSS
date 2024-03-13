@@ -346,7 +346,7 @@ li {
 
 /*fin footer*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .cajas {
     width: 100%;
     display: flex;
