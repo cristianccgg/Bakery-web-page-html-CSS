@@ -12,8 +12,6 @@ It only contains the main page and links to secondary pages do not work yet.
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
