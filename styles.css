@@ -50,7 +50,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(images/fondo1.jpg);
+  background: url(/Images/fondo1.jpeg);
   background-size: cover;
   background-position: center;
   padding: 250px;
@@ -130,7 +130,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(images/fondo2.jpg);
+  background-image: url(/Images/fondo2.jpeg);
   background-size: cover;
   background-position: center;
   position: relative;
